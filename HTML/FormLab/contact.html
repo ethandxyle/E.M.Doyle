@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FormLab.contact</title>
+</head>
+<body>
+<a href="index.html" target="_blank">Home</a>
+<a href="#">Contact</a>
+<form action="/sendTheData" method="get">
+    <label>
+        First name:
+        <input type="text" name="fname" id="" placeholder="Please enter first name" required>
+
+    </label>
+    <br>
+    <label>
+        Last name:
+        <input type="text" name="lname" id="" placeholder="Please enter last name" maxlength="10">
+
+    </label>
+    <br>
+    <label>
+        Email:
+        <input type="text" name="email_address" id="" placeholder="Please enter email" required
+               pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$">
+    </label>
+    <br>
+    <label>
+        Phone:
+        <input type="tel" name="tel-phone" id="" placeholder="Tel(xxx-xxx-xxxx)"  title="pattern xxx-xxx-xxxx"
+               pattern="/^\+?[1-9][0-9]{7,14}$/">
+    </label>
+    <br>
+    <label>
+        Age:
+        <input type="Number" name="age" id="" min="21" max="100">
+    </label>
+    <br>
+    <label>
+        Password:
+        <input type="password" name="pw" id="">
+    </label>
+    <br>
+    <label>
+        Are you alive?
+        <br>
+        <input type="radio" name="isAlive" id="" value="Yes">Yes
+        <input type="radio" name="isAlive" id="" value="No">No
+        <input type="radio" name="isAlive" id="" value="Zombie">Zombie
+        <br>
+        Are you married?
+        <br>
+        <input type="radio" name="isMarried" id="" value="Yes">Yes
+        <input type="radio" name="isMarried" id="" value="No">No
+        <input type="radio" name="isMarried" id="" value="Engaged">Engaged
+    </label>
+    <br>
+    <label>
+        Colors:
+        <br>
+        <input type="checkbox" name="color1" id="" value="red">Red
+        <input type="checkbox" name="color2" id="" value="purple">Purple
+        <input type="checkbox" name="color3" id="" value="green">Green
+        <input type="checkbox" name="color4" id="" value="blue">Blue
+    </label>
+    <br>
+    <label>
+        State:
+        <select name="State" id="">
+            <option value="texas">TX</option>
+            <option value="ohio">OH</option>
+            <option value="virginia">VA</option>
+            <option value="california">CA</option>
+        </select>
+    </label>
+    <br>
+    <label>
+        Tell us more about yourself!
+        <br>
+        <textarea cols="100" rows="10" name="moreDescription"></textarea>
+    </label>
+    <br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+
+</body>
+</html>
