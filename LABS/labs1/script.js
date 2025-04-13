@@ -1,4 +1,4 @@
-// /*1. Dynamic Age Calculator
+SgrW// /*1. Dynamic Age Calculator
 // Use a traditional function to calculate the user’s age.
 //     Prompt the user to enter their birth year using prompt() and store it in a variable.
 //     Based on their input, determine how many years old they are.

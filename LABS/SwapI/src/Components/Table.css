@@ -1,0 +1,17 @@
+.sw-table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.sw-table th, .sw-table td {
+    border: 1px solid white;
+    padding: 12px;
+    text-align: center;
+}
+
+.sw-table th {
+    background-color: #333;
+}

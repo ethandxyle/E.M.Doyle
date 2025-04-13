@@ -1,0 +1,18 @@
+.app-container {
+    text-align: center;
+}
+
+.button-group {
+    margin: 1rem 0;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}

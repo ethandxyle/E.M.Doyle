@@ -5,6 +5,9 @@ import Contact from "./components/Contact.jsx"
 import axios from "axios"
 import MovieCard from "./components/movieCard.jsx"
 import {useState} from "react";
+import SearchAppBar from "./components/AppBar.jsx";
+import React from 'react';
+
 
 const App = () => {
     const [movies, setMovies] = useState("")
@@ -32,6 +35,7 @@ const App = () => {
     }
     return (
         <>
+            <SearchAppBar position="static"></SearchAppBar>
             <h1>App Comp</h1>
             <Router>
                 <div className="App">
